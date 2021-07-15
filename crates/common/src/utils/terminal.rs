@@ -4,7 +4,6 @@ use std::io::{self, Write};
 use ansi_term::{Color, Style};
 
 pub mod advent;
-pub mod utils;
 
 pub struct ConsoleWriter {
     out: io::Stdout,
